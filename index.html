@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>دار القضاء </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@400;600;700;800&family=Readex+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/default-css.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo2.png" alt="">
+        <span class="d-none d-lg-block">دار القضاء </span>
+      </a>
+      <i class="bi bi-list-nested toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>مدني </span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>اسرة</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements.html">
+              <i class="bi bi-circle"></i><span>نفس</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts.html">
+              <i class="bi bi-circle"></i><span>مالي</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-editors.html">
+              <i class="bi bi-circle"></i><span>شرعى</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Forms Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>عمالي </span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>ضرائب </span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>استثماري </span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <section class="section dashboard p-5">
+      <div class="overlay"></div>
+      <div class="container col-md-6">
+        <div class="form-details">
+          <form action="">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="" class="label">رقم الأستئناف</label>
+                  <input type="number" class="form-control input_form">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="input_form" class="label">سنة الأستئناف</label>
+                  <input type="date" class="form-control input_form">
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label for="" class="label"> المستئنف</label>
+                  <select type="number" class="form-control input_form">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label for="" class="label"> المستئنف ضده</label>
+                  <select name="" class="form-control input_form" id="select">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <div class="form-group">
+                        <label for="" class="label"> اسم المستئنف </label>
+                        <input type="text" class="form-control input_form">
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <button class="plus"><i class="bi bi-plus"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-lg-6">
+                <form action="">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <div class="form-group">
+                        <label for="" class="label"> اسم المستئنف ضده </label>
+                        <input type="text" class="form-control input_form">
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <button class="plus"><i class="bi bi-plus"></i></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="" class="label">الدائرة</label>
+                  <input type="text" class="form-control input_form" placeholder="رقم الدائرة">
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="" class="label">تاريخ الحكم</label>
+                  <input type="date" class="form-control input_form" placeholder="رقم الدائرة">
+                </div>
+              </div>
+
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label for="" class="label">منطوق الحكم</label>
+                  <textarea type="date" class="form-control text_area p-3" rows="3" cols="3" placeholder="أكتب شيئاً"></textarea>
+                </div>
+              </div>
+
+              <div class="col-lg-8">
+                <div class="form-group">
+                  <label for="" class="label">رفع الملف </label>
+                  <input type="file" class="form-control input_form">
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="form-group">
+                  <label for="" class="label"> عدد المستندات</label>
+                  <select name="" class="form-control input_form" id="select">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mt-3">
+                <button class="btn_save">
+                  حفظ
+                </button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; حقوق النشر <strong><span>دار القضاء</span></strong>. جميع الحقوق محفوظة
+    </div>
+    <div class="credits">
+       تم التصميم بواسطة <a href="https://www.facebook.com/profile.php?id=100094573805747">LEVERAGE <img src="assets/img/leverage.jpg" style="width: 30px;" alt=""></a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/jQuery/jquery-2.2.4.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
